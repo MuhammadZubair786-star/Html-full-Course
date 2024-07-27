@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms & Input Tags in html</title>
+  </head>
+  <body>
+    <h1>Form & Input Tags in html</h1>
+    <form action="post">
+      <label for="UserName">UserName</label>
+      <input type="text" id="UserName" autofocus placeholder="What is UserName" />
+      <br />
+      <label for="Skills">Skills</label>
+      <input type="text" id="Skills" autocomplete="nickname" placeholder="What is your Skills" />
+      <br />
+      <label for="date">Date</label>
+      <input type="date" id="date" />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="What is your email" />
+      <br />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="what is your password"
+      />
+      <br />
+      <label for="search">Search</label>
+      <input type="search" id="search" placeholder="what is your search" />
+      <br />
+      <label for="file">File</label>
+      <input type="file" id="file" />
+      <br />
+      <label for="submit">Submit</label>
+      <input type="submit" id="submit" />
+      <br />
+      <label for="comment">Comment</label>
+      <br />
+      <textarea
+        name="comment"
+        id="comment"
+        placeholder="What is your Comment"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <label for="Male">Male</label>
+      <input type="radio" name="gender" id="Male" value="Male" />
+      <br />
+      <label for="Female">Female</label>
+      <input type="radio" name="gender" id="Female" value="Female" />
+      <br />
+      <label for="checkbox">Checkbox</label>
+      <input type="checkbox" id="checkbox" />
+      <br>
+      <label for="fruits">fruits</label>
+      <select name="fruits" id="fruits">
+        <option value="Banana">Banana</option>
+        <option value="Apple">Apple</option>
+        <option value="Chery">Chery</option>
+      </select>
+    </form>
+  </body>
+</html>
